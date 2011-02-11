@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B10BA51305A72000B5E03D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BA41305A72000B5E03D /* UIKit.framework */; };
+		19B10BA71305A72000B5E03D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BA61305A72000B5E03D /* Foundation.framework */; };
+		19B10BA91305A72000B5E03D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BA81305A72000B5E03D /* CoreGraphics.framework */; };
+		19B10BAF1305A72000B5E03D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B10BAD1305A72000B5E03D /* InfoPlist.strings */; };
+		19B10BB21305A72000B5E03D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BB11305A72000B5E03D /* main.m */; };
+		19B10BB51305A72000B5E03D /* TDDExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BB41305A72000B5E03D /* TDDExampleAppDelegate.m */; };
+		19B10BB81305A72000B5E03D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B10BB61305A72000B5E03D /* MainWindow.xib */; };
+		19B10BBB1305A72000B5E03D /* TDDExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BBA1305A72000B5E03D /* TDDExampleViewController.m */; };
+		19B10BBE1305A72000B5E03D /* TDDExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B10BBC1305A72000B5E03D /* TDDExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19B10BA01305A71F00B5E03D /* TDDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B10BA41305A72000B5E03D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19B10BA61305A72000B5E03D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19B10BA81305A72000B5E03D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19B10BAC1305A72000B5E03D /* TDDExample-Info.plist */ = {isa = PBXFileReference; path = "TDDExample-Info.plist"; sourceTree = "<group>"; };
+		19B10BAE1305A72000B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B10BB01305A72000B5E03D /* TDDExample-Prefix.pch */ = {isa = PBXFileReference; path = "TDDExample-Prefix.pch"; sourceTree = "<group>"; };
+		19B10BB11305A72000B5E03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B10BB31305A72000B5E03D /* TDDExampleAppDelegate.h */ = {isa = PBXFileReference; path = TDDExampleAppDelegate.h; sourceTree = "<group>"; };
+		19B10BB41305A72000B5E03D /* TDDExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDExampleAppDelegate.m; sourceTree = "<group>"; };
+		19B10BB71305A72000B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		19B10BB91305A72000B5E03D /* TDDExampleViewController.h */ = {isa = PBXFileReference; path = TDDExampleViewController.h; sourceTree = "<group>"; };
+		19B10BBA1305A72000B5E03D /* TDDExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDExampleViewController.m; sourceTree = "<group>"; };
+		19B10BBD1305A72000B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TDDExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B10B9D1305A71F00B5E03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B10BA51305A72000B5E03D /* UIKit.framework in Frameworks */,
+				19B10BA71305A72000B5E03D /* Foundation.framework in Frameworks */,
+				19B10BA91305A72000B5E03D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B10B951305A71F00B5E03D = {
+			isa = PBXGroup;
+			children = (
+				19B10BAA1305A72000B5E03D /* TDDExample */,
+				19B10BA31305A72000B5E03D /* Frameworks */,
+				19B10BA11305A71F00B5E03D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B10BA11305A71F00B5E03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B10BA01305A71F00B5E03D /* TDDExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B10BA31305A72000B5E03D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B10BA41305A72000B5E03D /* UIKit.framework */,
+				19B10BA61305A72000B5E03D /* Foundation.framework */,
+				19B10BA81305A72000B5E03D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B10BAA1305A72000B5E03D /* TDDExample */ = {
+			isa = PBXGroup;
+			children = (
+				19B10BB31305A72000B5E03D /* TDDExampleAppDelegate.h */,
+				19B10BB41305A72000B5E03D /* TDDExampleAppDelegate.m */,
+				19B10BB61305A72000B5E03D /* MainWindow.xib */,
+				19B10BB91305A72000B5E03D /* TDDExampleViewController.h */,
+				19B10BBA1305A72000B5E03D /* TDDExampleViewController.m */,
+				19B10BBC1305A72000B5E03D /* TDDExampleViewController.xib */,
+				19B10BAB1305A72000B5E03D /* Supporting Files */,
+			);
+			path = TDDExample;
+			sourceTree = "<group>";
+		};
+		19B10BAB1305A72000B5E03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B10BAC1305A72000B5E03D /* TDDExample-Info.plist */,
+				19B10BAD1305A72000B5E03D /* InfoPlist.strings */,
+				19B10BB01305A72000B5E03D /* TDDExample-Prefix.pch */,
+				19B10BB11305A72000B5E03D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B10B9F1305A71F00B5E03D /* TDDExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B10BC11305A72000B5E03D /* Build configuration list for PBXNativeTarget "TDDExample" */;
+			buildPhases = (
+				19B10B9C1305A71F00B5E03D /* Sources */,
+				19B10B9D1305A71F00B5E03D /* Frameworks */,
+				19B10B9E1305A71F00B5E03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDExample;
+			productName = TDDExample;
+			productReference = 19B10BA01305A71F00B5E03D /* TDDExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B10B971305A71F00B5E03D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 19B10B9A1305A71F00B5E03D /* Build configuration list for PBXProject "TDDExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19B10B951305A71F00B5E03D;
+			productRefGroup = 19B10BA11305A71F00B5E03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B10B9F1305A71F00B5E03D /* TDDExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B10B9E1305A71F00B5E03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B10BAF1305A72000B5E03D /* InfoPlist.strings in Resources */,
+				19B10BB81305A72000B5E03D /* MainWindow.xib in Resources */,
+				19B10BBE1305A72000B5E03D /* TDDExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B10B9C1305A71F00B5E03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B10BB21305A72000B5E03D /* main.m in Sources */,
+				19B10BB51305A72000B5E03D /* TDDExampleAppDelegate.m in Sources */,
+				19B10BBB1305A72000B5E03D /* TDDExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19B10BAD1305A72000B5E03D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B10BAE1305A72000B5E03D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19B10BB61305A72000B5E03D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B10BB71305A72000B5E03D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		19B10BBC1305A72000B5E03D /* TDDExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B10BBD1305A72000B5E03D /* en */,
+			);
+			name = TDDExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B10BBF1305A72000B5E03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19B10BC01305A72000B5E03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		19B10BC21305A72000B5E03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDExample/TDDExample-Prefix.pch";
+				INFOPLIST_FILE = "TDDExample/TDDExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19B10BC31305A72000B5E03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDExample/TDDExample-Prefix.pch";
+				INFOPLIST_FILE = "TDDExample/TDDExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B10B9A1305A71F00B5E03D /* Build configuration list for PBXProject "TDDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B10BBF1305A72000B5E03D /* Debug */,
+				19B10BC01305A72000B5E03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B10BC11305A72000B5E03D /* Build configuration list for PBXNativeTarget "TDDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B10BC21305A72000B5E03D /* Debug */,
+				19B10BC31305A72000B5E03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B10B971305A71F00B5E03D /* Project object */;
+}
