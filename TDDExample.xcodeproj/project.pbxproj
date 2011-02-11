@@ -16,6 +16,14 @@
 		19B10BB81305A72000B5E03D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B10BB61305A72000B5E03D /* MainWindow.xib */; };
 		19B10BBB1305A72000B5E03D /* TDDExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BBA1305A72000B5E03D /* TDDExampleViewController.m */; };
 		19B10BBE1305A72000B5E03D /* TDDExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B10BBC1305A72000B5E03D /* TDDExampleViewController.xib */; };
+		19B10BCA1305AA8300B5E03D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BA41305A72000B5E03D /* UIKit.framework */; };
+		19B10BCB1305AA8300B5E03D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BA61305A72000B5E03D /* Foundation.framework */; };
+		19B10BCC1305AA8300B5E03D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BA81305A72000B5E03D /* CoreGraphics.framework */; };
+		19B10BD21305AA8300B5E03D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B10BD01305AA8300B5E03D /* InfoPlist.strings */; };
+		19B10BD81305AA8300B5E03D /* UnitTestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BD71305AA8300B5E03D /* UnitTestsAppDelegate.m */; };
+		19B10BE01305AAD800B5E03D /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BDF1305AAD800B5E03D /* GHUnitIOS.framework */; };
+		19B10BE41305ABFC00B5E03D /* SanityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BE31305ABFC00B5E03D /* SanityTest.m */; };
+		19B10BE61305EEBA00B5E03D /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BE51305EEBA00B5E03D /* GHUnitIOSTestMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +31,27 @@
 		19B10BA41305A72000B5E03D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		19B10BA61305A72000B5E03D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19B10BA81305A72000B5E03D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		19B10BAC1305A72000B5E03D /* TDDExample-Info.plist */ = {isa = PBXFileReference; path = "TDDExample-Info.plist"; sourceTree = "<group>"; };
+		19B10BAC1305A72000B5E03D /* TDDExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDExample-Info.plist"; sourceTree = "<group>"; };
 		19B10BAE1305A72000B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		19B10BB01305A72000B5E03D /* TDDExample-Prefix.pch */ = {isa = PBXFileReference; path = "TDDExample-Prefix.pch"; sourceTree = "<group>"; };
+		19B10BB01305A72000B5E03D /* TDDExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDExample-Prefix.pch"; sourceTree = "<group>"; };
 		19B10BB11305A72000B5E03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19B10BB31305A72000B5E03D /* TDDExampleAppDelegate.h */ = {isa = PBXFileReference; path = TDDExampleAppDelegate.h; sourceTree = "<group>"; };
+		19B10BB31305A72000B5E03D /* TDDExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDExampleAppDelegate.h; sourceTree = "<group>"; };
 		19B10BB41305A72000B5E03D /* TDDExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDExampleAppDelegate.m; sourceTree = "<group>"; };
 		19B10BB71305A72000B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		19B10BB91305A72000B5E03D /* TDDExampleViewController.h */ = {isa = PBXFileReference; path = TDDExampleViewController.h; sourceTree = "<group>"; };
+		19B10BB91305A72000B5E03D /* TDDExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDDExampleViewController.h; sourceTree = "<group>"; };
 		19B10BBA1305A72000B5E03D /* TDDExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDExampleViewController.m; sourceTree = "<group>"; };
 		19B10BBD1305A72000B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TDDExampleViewController.xib; sourceTree = "<group>"; };
+		19B10BC81305AA8300B5E03D /* UnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B10BCF1305AA8300B5E03D /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		19B10BD11305AA8300B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B10BD31305AA8300B5E03D /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		19B10BD41305AA8300B5E03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B10BD61305AA8300B5E03D /* UnitTestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTestsAppDelegate.h; sourceTree = "<group>"; };
+		19B10BD71305AA8300B5E03D /* UnitTestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestsAppDelegate.m; sourceTree = "<group>"; };
+		19B10BDA1305AA8300B5E03D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		19B10BDF1305AAD800B5E03D /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		19B10BE31305ABFC00B5E03D /* SanityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityTest.m; sourceTree = "<group>"; };
+		19B10BE51305EEBA00B5E03D /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +65,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19B10BC51305AA8300B5E03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B10BCA1305AA8300B5E03D /* UIKit.framework in Frameworks */,
+				19B10BCB1305AA8300B5E03D /* Foundation.framework in Frameworks */,
+				19B10BCC1305AA8300B5E03D /* CoreGraphics.framework in Frameworks */,
+				19B10BE01305AAD800B5E03D /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				19B10BAA1305A72000B5E03D /* TDDExample */,
+				19B10BCD1305AA8300B5E03D /* UnitTests */,
 				19B10BA31305A72000B5E03D /* Frameworks */,
 				19B10BA11305A71F00B5E03D /* Products */,
 			);
@@ -62,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				19B10BA01305A71F00B5E03D /* TDDExample.app */,
+				19B10BC81305AA8300B5E03D /* UnitTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +101,7 @@
 		19B10BA31305A72000B5E03D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				19B10BDF1305AAD800B5E03D /* GHUnitIOS.framework */,
 				19B10BA41305A72000B5E03D /* UIKit.framework */,
 				19B10BA61305A72000B5E03D /* Foundation.framework */,
 				19B10BA81305A72000B5E03D /* CoreGraphics.framework */,
@@ -101,6 +134,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		19B10BCD1305AA8300B5E03D /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B10BE11305ABB900B5E03D /* Tests */,
+				19B10BD61305AA8300B5E03D /* UnitTestsAppDelegate.h */,
+				19B10BD71305AA8300B5E03D /* UnitTestsAppDelegate.m */,
+				19B10BD91305AA8300B5E03D /* MainWindow.xib */,
+				19B10BCE1305AA8300B5E03D /* Supporting Files */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		19B10BCE1305AA8300B5E03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B10BCF1305AA8300B5E03D /* UnitTests-Info.plist */,
+				19B10BD01305AA8300B5E03D /* InfoPlist.strings */,
+				19B10BD31305AA8300B5E03D /* UnitTests-Prefix.pch */,
+				19B10BE51305EEBA00B5E03D /* GHUnitIOSTestMain.m */,
+				19B10BD41305AA8300B5E03D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B10BE11305ABB900B5E03D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19B10BE31305ABFC00B5E03D /* SanityTest.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +186,23 @@
 			productReference = 19B10BA01305A71F00B5E03D /* TDDExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		19B10BC71305AA8300B5E03D /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B10BDC1305AA8300B5E03D /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				19B10BC41305AA8300B5E03D /* Sources */,
+				19B10BC51305AA8300B5E03D /* Frameworks */,
+				19B10BC61305AA8300B5E03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 19B10BC81305AA8300B5E03D /* UnitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				19B10B9F1305A71F00B5E03D /* TDDExample */,
+				19B10BC71305AA8300B5E03D /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +237,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19B10BC61305AA8300B5E03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B10BD21305AA8300B5E03D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,6 +255,16 @@
 				19B10BB21305A72000B5E03D /* main.m in Sources */,
 				19B10BB51305A72000B5E03D /* TDDExampleAppDelegate.m in Sources */,
 				19B10BBB1305A72000B5E03D /* TDDExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B10BC41305AA8300B5E03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B10BD81305AA8300B5E03D /* UnitTestsAppDelegate.m in Sources */,
+				19B10BE41305ABFC00B5E03D /* SanityTest.m in Sources */,
+				19B10BE61305EEBA00B5E03D /* GHUnitIOSTestMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +293,22 @@
 				19B10BBD1305A72000B5E03D /* en */,
 			);
 			name = TDDExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+		19B10BD01305AA8300B5E03D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B10BD11305AA8300B5E03D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19B10BD91305AA8300B5E03D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B10BDA1305AA8300B5E03D /* en */,
+			);
+			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,6 +375,54 @@
 			};
 			name = Release;
 		};
+		19B10BDD1305AA8300B5E03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19B10BDE1305AA8300B5E03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -275,6 +440,14 @@
 			buildConfigurations = (
 				19B10BC21305A72000B5E03D /* Debug */,
 				19B10BC31305A72000B5E03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19B10BDC1305AA8300B5E03D /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B10BDD1305AA8300B5E03D /* Debug */,
+				19B10BDE1305AA8300B5E03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
