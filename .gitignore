@@ -16,3 +16,6 @@ profile
 # XCode 4
 YourProjectName.xcodeproj/xcuserdata/*
 YourProjectName.xcodeproj/project.xcworkspace/xcuserdata/*
+
+#added by N
+DS_Store
