@@ -38,4 +38,9 @@
     GHAssertEqualsWithAccuracy((CGFloat)1.0, components[2], 0.00001, @"blue background's red value was wrong");
 }
 
+-(void) test_ViewShouldHaveGoodbyeButton
+{
+    GHAssertNotNil(self.vc.goodbyeButton, @"goodbye button doesn't exist");
+}
+
 @end

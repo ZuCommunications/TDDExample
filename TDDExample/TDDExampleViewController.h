@@ -13,5 +13,6 @@
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *helloLabel;
+@property (nonatomic, retain) IBOutlet UIButton *goodbyeButton;
 
 @end

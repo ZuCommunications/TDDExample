@@ -10,7 +10,7 @@
 
 @implementation TDDExampleViewController
 
-@synthesize helloLabel;
+@synthesize helloLabel, goodbyeButton;
 
 - (void)dealloc
 {
