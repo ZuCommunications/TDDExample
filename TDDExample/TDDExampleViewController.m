@@ -10,6 +10,8 @@
 
 @implementation TDDExampleViewController
 
+@synthesize helloLabel;
+
 - (void)dealloc
 {
     [super dealloc];

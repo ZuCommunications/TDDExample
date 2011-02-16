@@ -24,6 +24,9 @@
 		19B10BE01305AAD800B5E03D /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B10BDF1305AAD800B5E03D /* GHUnitIOS.framework */; };
 		19B10BE41305ABFC00B5E03D /* SanityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BE31305ABFC00B5E03D /* SanityTest.m */; };
 		19B10BE61305EEBA00B5E03D /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BE51305EEBA00B5E03D /* GHUnitIOSTestMain.m */; };
+		19B10BE81309850100B5E03D /* TDDExampleViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BE71309850100B5E03D /* TDDExampleViewControllerTest.m */; };
+		19B10BE9130986B100B5E03D /* TDDExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B10BBA1305A72000B5E03D /* TDDExampleViewController.m */; };
+		19B10BEA1309882500B5E03D /* TDDExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B10BBC1305A72000B5E03D /* TDDExampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,7 @@
 		19B10BDF1305AAD800B5E03D /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		19B10BE31305ABFC00B5E03D /* SanityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityTest.m; sourceTree = "<group>"; };
 		19B10BE51305EEBA00B5E03D /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		19B10BE71309850100B5E03D /* TDDExampleViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDExampleViewControllerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				19B10BE31305ABFC00B5E03D /* SanityTest.m */,
+				19B10BE71309850100B5E03D /* TDDExampleViewControllerTest.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19B10BD21305AA8300B5E03D /* InfoPlist.strings in Resources */,
+				19B10BEA1309882500B5E03D /* TDDExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +271,8 @@
 				19B10BD81305AA8300B5E03D /* UnitTestsAppDelegate.m in Sources */,
 				19B10BE41305ABFC00B5E03D /* SanityTest.m in Sources */,
 				19B10BE61305EEBA00B5E03D /* GHUnitIOSTestMain.m in Sources */,
+				19B10BE81309850100B5E03D /* TDDExampleViewControllerTest.m in Sources */,
+				19B10BE9130986B100B5E03D /* TDDExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
