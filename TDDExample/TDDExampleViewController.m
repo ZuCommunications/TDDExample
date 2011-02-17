@@ -10,11 +10,17 @@
 
 @implementation TDDExampleViewController
 
-@synthesize helloLabel;
+@synthesize helloLabel, goodbyeButton, goodbyePhrase;
 
 - (void)dealloc
 {
     [super dealloc];
+}
+
+
+-(IBAction) sayGoodbye:(id)sender;
+{
+    self.goodbyePhrase.text = @"Goodbye";
 }
 
 - (void)didReceiveMemoryWarning
