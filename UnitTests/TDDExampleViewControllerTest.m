@@ -1,11 +1,9 @@
 #import <GHUnitIOS/GHUnit.h> 
-//#import <UIKit/UIKit.h>
-//#import "application_headers" as required
 #import "TDDExampleViewController.h"
 
 @interface TDDExampleViewControllerTest : GHTestCase {}
 @property (nonatomic, retain) TDDExampleViewController *vc;
-@end
+@end  
 
 @implementation TDDExampleViewControllerTest
 @synthesize vc;
@@ -41,6 +39,21 @@
 -(void) test_ViewShouldHaveGoodbyeButton
 {
     GHAssertNotNil(self.vc.goodbyeButton, @"goodbye button doesn't exist");
+}
+
+-(void) test_GoodbyeButtonShouldSayGoodbyeWhenPressed
+{
+    NSArray *actions = [self.vc.goodbyeButton actionsForTarget:self.vc forControlEvent:UITouchPhaseBegan];
+    GHAssertTrue([actions containsObject:@"sayGoodbye:"], @"button doesn't say goodbye");
+}
+
+-(void) test_SaysGoodbyeShouldSayGoodbye
+{
+    GHAssertNotNil(self.vc.goodbyePhrase, @"goodbye phrase is not there");
+    
+    [self.vc sayGoodbye:self.vc.goodbyeButton];
+    
+    GHAssertEqualStrings(self.vc.goodbyePhrase.text, @"Goodbye", @"doesn't say goodbye");
 }
 
 @end

@@ -11,8 +11,10 @@
 @interface TDDExampleViewController : UIViewController {
     
 }
-
 @property (nonatomic, retain) IBOutlet UILabel *helloLabel;
 @property (nonatomic, retain) IBOutlet UIButton *goodbyeButton;
+@property (nonatomic, retain) IBOutlet UILabel *goodbyePhrase;
+
+-(IBAction) sayGoodbye:(id)sender;
 
 @end
