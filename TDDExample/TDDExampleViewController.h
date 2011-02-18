@@ -14,6 +14,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *helloLabel;
 @property (nonatomic, retain) IBOutlet UIButton *goodbyeButton;
 @property (nonatomic, retain) IBOutlet UILabel *goodbyePhrase;
+@property int goodbyeCount;
 
 -(IBAction) sayGoodbye:(id)sender;
 

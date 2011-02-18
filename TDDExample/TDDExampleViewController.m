@@ -10,7 +10,12 @@
 
 @implementation TDDExampleViewController
 
-@synthesize helloLabel, goodbyeButton, goodbyePhrase;
+@synthesize helloLabel, goodbyeButton, goodbyePhrase, goodbyeCount;
+
+-(void)viewDidLoad 
+{
+    self.goodbyeCount = 0;
+}
 
 - (void)dealloc
 {
@@ -20,7 +25,8 @@
 
 -(IBAction) sayGoodbye:(id)sender;
 {
-    self.goodbyePhrase.text = @"Goodbye";
+    self.goodbyeCount++;
+    self.goodbyePhrase.text = [NSString stringWithFormat:@"Goodbye x %d", self.goodbyeCount];
 }
 
 - (void)didReceiveMemoryWarning

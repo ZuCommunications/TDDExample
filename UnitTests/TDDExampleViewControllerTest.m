@@ -53,7 +53,24 @@
     
     [self.vc sayGoodbye:self.vc.goodbyeButton];
     
-    GHAssertEqualStrings(self.vc.goodbyePhrase.text, @"Goodbye", @"doesn't say goodbye");
+    GHAssertEqualStrings(self.vc.goodbyePhrase.text, @"Goodbye x 1", @"doesn't say goodbye");
+}
+
+-(void) test_ViewControllerShouldIncrementCountWhenGoodbyeIsSaid
+{
+    GHAssertTrue(self.vc.goodbyeCount == 0, @"goodbye count didn't start at zero");
+    [self.vc sayGoodbye:nil];
+    GHAssertTrue(self.vc.goodbyeCount == 1, @"goodbye count didn't increment");
+    [self.vc sayGoodbye:nil];
+    GHAssertTrue(self.vc.goodbyeCount == 2, @"goodbye count didn't increment");
+}
+
+-(void) test_GoodbyeCountShouldAppearWhenGoodbyeIsSaid
+{
+    [self.vc sayGoodbye:nil];
+    
+    [self.vc sayGoodbye:nil];
+    GHAssertEqualStrings(self.vc.goodbyePhrase.text, @"Goodbye x 2", @"goodbye text didn't appear");
 }
 
 @end
